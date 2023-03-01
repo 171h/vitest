@@ -1177,7 +1177,7 @@ type Awaitable<T> = T | PromiseLike<T>
       name: 'Empire',
       count: 1,
     }
-    expect(basket).toEqual({
+    expect(variety).toEqual({
       name: expect.stringContaining('Emp'),
       count: 1,
     })
